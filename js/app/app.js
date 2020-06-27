@@ -15,10 +15,6 @@
 					templateUrl: 'partials/about.html',
 					controller: 'aboutController'
 				})		
-				.when('/itizone', {
-					templateUrl: 'partials/itizone.html',
-					controller: 'itizoneController'
-				})		
 				.when('/clients', {
 					templateUrl: 'partials/clients.html',
 					controller: 'clientsController'
@@ -34,6 +30,37 @@
 				.when('/sitemap', {
 					templateUrl: 'partials/sitemap.html',
 					controller: 'sitemapController'
+				})
+				.when('/sprinkler', {
+					templateUrl: 'partials/sprinkler.html',
+					controller: 'homeController'
+				})
+				.when('/hydrant', {
+					templateUrl: 'partials/hydrant.html',
+					controller: 'homeController'
+				})
+				.when('/fireextinguisher', {
+					templateUrl: 'partials/fireextinguisher.html',
+					controller: 'homeController'
+				})
+				.when('/public', {
+					templateUrl: 'partials/preaction.html',
+					controller: 'homeController'
+				})
+				.when('/preaction', {
+					templateUrl: 'partials/preaction.html',
+					controller: 'homeController'
+				})
+				.when('/cnglpg', {
+					templateUrl: 'partials/cnglpg.html',
+					controller: 'homeController'
+				})
+
+
+
+				.when('/intrusion', {
+					templateUrl: 'partials/intrusion.html',
+					controller: 'homeController'
 				});
 	});
 

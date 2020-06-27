@@ -906,8 +906,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #333;
+  color:red;
   text-decoration: none;
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  
 }
 a:hover,
 a:focus {
@@ -931,7 +935,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  width: 100% \9;
+  width: 100% ;
   max-width: 100%;
   height: auto;
 }
